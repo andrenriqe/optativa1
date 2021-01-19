@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Registrar citas  </title>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.4">
+<link rel="stylesheet" type="text/css" href="Estilos/transacion.css">
+<link rel="stylesheet" type="text/css" href="Estilos/Barra.css">
+<link rel="stylesheet" type="text/css" href="Estilos/footer.css">
+<link rel="stylesheet" type="text/css" href="Estilos/tracombi.css">
+ <script src="js/validaciones.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+<header>
+<ul>
+     <li><a href="index.html">Inicio</a></li>
+      <li><a href="Adminitracion.html">Administracion </a></li>
+      <li><a href="Consultas.html">Consultas de citas </a></li>
+      <li><a href="Transacion.html">Registrar citas  </a></li>
+      <li><a href="Acercade.html">Acerca de</a></li>
+      <li style="float:right"><a href="login.html">Volver a Iniciar Sesion </a></li>
+    </ul>
+</header>
+
+<section class="container">  
+      <div class="card">
+      <h2>FORMULARIO DE REGISTRO </h2>
+      <div class="fakeimg" style="width: 200px" ></div>
+      <br>
+    <p>
+    <label for="name">Nombre </label><br>
+    <input type="text"  id="txtNombreusuarioRegistro"  
+    placeholder="ingrese su nombre"
+    autofocus
+    autocomplete>
+  </p>
+<p>
+    <label for="name">Apellido </label><br>
+    <input type="text"  id="txtApellidoUsuarioregistro"
+    placeholder="Ingrese su apellido"
+    autofocus
+    autocomplete
+    >
+  </p>
+  <p>
+    <label for="name">Especialidad medica  </label><br>
+  <select name="especialidades ">
+
+  <option>pediatra</option>
+
+  <option>dermatologo </option>
+
+  <option>cardiologo</option>
+
+  <option>ematologo  </option>
+
+  <option selected>medicina general </option>
+
+</select>
+
+</p>
+  <p>
+    <label for="name">Hora de cita  </label><br>
+<input type="time" name="hora"> 
+</p>
+  <p>
+<label for="start">Fecha de cita </label><br>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="2020-01-01" max="2021-12-31">
+</p>
+
+<p>
+    <label for="name">direccion </label><br>
+   <input type="text" id="txtEdadUsuarioRegistro"
+    placeholder="lugar "
+    autofocus
+    autocomplete
+    >
+  </p>
+
+<p>
+    <label for="email">Email</label><br>
+    <input type="email" placeholder="Ingrese su correo electronico" id="txtEmailUsaurioRegistro"
+   />
+  </p>
+
+    <p>
+     <input type="submit" class="button" value="Enviar" >
+    </p>
+  </form>
+</div>   
+    </div>
+    </div>   
+    <script src="js/validaciones.js"></script>
+</section>
+
+</html>
